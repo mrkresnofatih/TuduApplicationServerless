@@ -1,0 +1,26 @@
+{
+  "name": "tudu-serverless-backend",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w",
+    "lint": "tslint '*.ts'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-sdk": "0.0.42",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/node": "^7.0.5",
+    "esbuild": "^0.14.48",
+    "serverless-esbuild": "^1.31.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ssm": "^3.121.0",
+    "@types/aws-lambda": "^8.10.101",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
